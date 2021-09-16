@@ -1,0 +1,30 @@
+.skills--section {
+  margin-top: 3rem;
+  width: 25rem;
+}
+.skills--container .skill--title {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.skills--container .skill--bar {
+  display: flex;
+  align-items: center;
+}
+
+.skills--container .skill--bar .skill--progress {
+  width: 100%;
+}
+.skills--container .skill--bar .skill--progress .progress {
+  width: 100%;
+  height: 0.5rem;
+  margin-left: 1rem;
+  background-color: #0381ff3f;
+  position: relative;
+}
+.skills--container .skill--bar .skill--progress .progress .inner--progress {
+  position: absolute;
+  background-color: #037fff;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}

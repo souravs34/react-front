@@ -1,0 +1,57 @@
+.InterestSection .interest {
+  width: 95%;
+  background-color: #191d2b;
+  border-left: 1px solid #2e344e;
+  border-right: 1px solid #2e344e;
+  border-bottom: 1px solid #2e344e;
+  border-top: 8px solid #2e344e;
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width: 1400px) {
+  .InterestSection .interest {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+.InterestSection .interest:hover {
+  border-top: 8px solid #037fff;
+}
+.InterestSection .interest .interest--content {
+  padding: 1rem;
+}
+.InterestSection .interest .interest--content .i--title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 1rem;
+  margin: 1rem 0;
+}
+.InterestSection .interest .interest--content img {
+  width: 5rem;
+  height: 5rem;
+}
+.InterestSection .interest .interest--content .img {
+  display: flex;
+  justify-content: center;
+}
+.InterestSection .interest .interest--content .i--title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 1px;
+  background-color: #2e344e;
+}
+
+.interests--container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 1400px) {
+  .interests--container {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
