@@ -12,11 +12,15 @@ const ImageSection = () => {
           I am <span>Sourav Borate</span>
         </h4>
         <p className="about--text">
-          Hardworking College Student seeking real world experience in full
+          {/* Hardworking College Student seeking real world experience in full
           stack development. Bringing forth a motivated attitude and a variety
           of powerful skills. Adept in various skills in html,css, react ,
           nodejs required for frontend and backend development. Committed to
-          utilizing my skills to further the mission of a company.
+          utilizing my skills to further the mission of a company. */}
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
         </p>
         <div className="about--details">
           <div className="left--section">
